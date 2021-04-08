@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.project {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url('shadman.jpg');
+  background-size: cover;
+  color: whitesmoke;
+  text-align: center;
+  transition: 5s;
+
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+@keyframes animate{
+  0%{
+    background-image: url('shadman2.jpg');
+  }
+  20%{
+    background-image: url('shadman3.jpg');
+  }
+  40%{
+    background-image: url('shadman4.jpg');
+  }
+  50%{
+    background-image: url('shadman8.jpg');
+  }
+  60%{
+    background-image: url('shadman5.jpg');
+  }
+  80%{
+    background-image: url('shadman6.jpg');
+  }
+  100%{
+    background-image: url('shadman7.jpg');
+  }
+}
+
+.top-wrapper h1 {
+  opacity: 0.6;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p h3 {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.Github {
+  background-color: black;
+}
+
+.Linkedin{
+  background-color: #184dbe;
+}
+
+.Instagram {
+  background-color: #ce134bfd;
+}
+.YouTube {
+  background-color: #750f0ffd;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(3, 78, 43, 0.9);
+  /* Change the position property to fixed, and top property to 0 */
+  position:fixed;
+  top:o;
+  /* Change the z-index property to 10 */
+  z-index:10;
+}
+
+.logo {
+  width: 190px;
+  margin-top: 29px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(5, 90, 58, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(4, 104, 57, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: rgb(255, 255, 255);
+  display: block;
+}
+
+.interest-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #004d29;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: rgb(2, 2, 2);
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.interest {
+  float: left;
+  width: 25%;
+}
+
+.interest-icon {
+  position: relative;
+}
+
+.interest-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: rgb(0, 0, 0);
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+}
